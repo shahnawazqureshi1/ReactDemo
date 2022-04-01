@@ -1,0 +1,12 @@
+.card-container{
+    align-items:'center'; 
+    display:'flex'; 
+    flex-direction:'column';
+    width: 300px;
+} 
+.card-container .imgyoung1{
+    max-height: 80px;
+    justify-items: center;
+    margin-top: 70px;
+    justify-content: space-between;
+  }

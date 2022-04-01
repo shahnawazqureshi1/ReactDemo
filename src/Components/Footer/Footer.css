@@ -1,0 +1,133 @@
+.footer{
+    display: flex;
+    min-height: auto;
+    padding-bottom: 50px;
+    background-color: black;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .App-header9{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    width: 85%;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  .footer > div h1 {
+    color: #fff;
+    margin-top: 50px;
+    font-weight: 700;
+    margin-left: 50px;
+    padding: 20px;
+    font-size: 15px;
+  }
+  .footer > div h4 {
+    color: #fff;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .icondiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .footer-bottom{
+    border-top: 2px solid #424a4f;
+    flex-direction: row;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  #fname{
+    max-width: 150px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 20px;
+  }
+  .btn-click{
+    margin: 10px 20px 10px 20px;
+    background-color: #0077b3;
+    max-width: 100px;
+    height: 30px;
+    border: 2px solid #0077b3;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 4ss00;
+  }
+
+  @media only screen and (max-width: 991px) {
+    .footer-bottom{
+        width: 100%;
+        flex-direction: column;
+      }
+      #fname{
+        width: 100%;
+      }
+      .btn-click{
+        width: 100%;
+        margin-left: 260px;
+        margin-top: -67px;
+      }
+  }
+  @media only screen and (max-width: 786px) {
+    .footer-bottom{
+        flex-direction: column;
+      }
+      #fname{
+        width: 100%;
+      }
+      .btn-click{
+        width: 100%;
+        margin-left: 260px;
+        margin-top: -67px;
+      }    
+  }
+  @media only screen and (max-width: 425px) {
+    #fname{
+      width: 40%;
+      margin-left: 60px;
+    }
+    .btn-click{
+      width: 80%;
+      margin-left: 230px;
+      margin-top: -67px;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .footer > div h4 {
+      color: #fff;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 10px;
+      font-size: 15px;
+  }
+  .footer > div h1 {
+    color: #fff;
+    margin-top: 50px;
+    font-weight: 700;
+    margin-left: 30px;
+    padding: 20px;
+    font-size: 15px;
+  }
+  }
+  @media only screen and (max-width: 320px) {
+    .footer > div h4 {
+    margin-left: 30px; 
+  }
+  .footer > div h1 {
+    margin-left: 15px;
+  }
+  #fname{
+    margin-left: 5px;
+  }
+  .btn-click{
+    margin-left: 150px;
+  }
+  }
+
+  

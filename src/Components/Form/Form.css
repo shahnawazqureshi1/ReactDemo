@@ -1,0 +1,129 @@
+.App-header7 {
+    display: flex;
+    min-height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .App-header7 p{
+    text-align: center;
+    color: #424a4f;
+  }
+  .form{
+    background-color: white;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    min-height: auto;
+    border:1px solid #424a4f;
+    border-radius: 5px;
+    width: 80vh;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .label{
+    margin-left: 40px;
+    color: #000;
+  }
+  .form-input{
+    width: 80%;
+    margin-left: 40px;
+    min-height: 40px;
+    border-radius: 5px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border:1px solid #424a4f;
+  }
+  .button {
+    background-color: #0077b3; /* Green */
+    border: none;
+    color: white;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .App-header7 a{
+    color: #0077b3;
+    margin-left: 40px;
+    font-size: 12px;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media only screen and (max-width: 1024px) {
+    .form{
+      width: 100vh;
+      margin-top: -50px;
+    }
+    .label{
+      margin-left: 40px;
+    }
+    input{
+      width: 80%;
+      box-shadow: none;
+    }
+    .input{
+      min-height: 40px;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    
+    .form{
+      width: 100vh;
+      top: 10px;
+    }
+    .App-header8{
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 786px) {
+    .form{
+      width: 100vh;
+      margin-top: 0px;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .App-header1 p{
+      font-size: 16px;
+    }
+    .form{
+      width: 100%;
+      margin-top: 0px;
+    }
+    .label{
+      margin-left: 20px;
+    }
+    input{
+      width: 80%;
+      margin-left: 20px;
+    }
+    .button {
+      margin-left: 20px;
+    }
+    .App-header6 h1{
+      color: #89d6f3;
+    }
+    .App-header6 p{
+      text-align: center;
+      padding-left: 5%;
+      padding-right: 5%;
+      margin-top: 0px;
+      font-size: 16px;
+      color: white;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .App-header6 p{
+      font-size: 12px;
+    }
+  }
+  

@@ -1,0 +1,53 @@
+.App-header2{
+  background-color: #f0f7f7;
+  display: flex;
+  min-height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+.imgyoung{
+  width:50%;
+  max-width: 570px;
+  object-fit: contain;
+  padding-left: 5%;
+}
+.App-header2 .young h1{
+  padding-left: 5%;
+  margin-bottom: 25px;
+  color: #424a4f;
+}
+.App-header2 .young p{
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #424a4f;
+}
+  @media only screen and (max-width: 991px) {
+    .App-header2{
+      display: block;
+    }
+    .App-header2 .imgyoung{
+      width: 84%;
+    } 
+    .App-header2 .b p{
+      padding-left: 10%;
+    }
+    .App-header2 .b h1{
+      padding-left: 10%;
+    }
+  }
+  @media only screen and (max-width: 786px) {
+    .App-header2{
+      padding-bottom: 30px;
+      padding-top: 30px; ;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .App1 p{
+      font-size: 15px;
+    } 
+  }
+  @media only screen and (max-width: 320px) {
+    .App1 p{
+      font-size: 12px;
+    } 
+  }

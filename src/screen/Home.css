@@ -1,0 +1,326 @@
+.App-header {
+    background-color: #0b5876;
+    display: flex;
+    min-height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .App-header h1{
+    color: #89d6f3;
+  }
+  .App-header p{
+    color: white;
+    margin-top: 25px;
+  }
+  .App-header1 {
+    display: flex;
+    min-height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 0px 15%;
+  }
+  .App-header1 p{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #424a4f;
+  }
+  .col-sm {
+    float: left;
+    width: 50%;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .App-header3{
+    display: flex;
+    min-height: 70vh;
+    padding-top: 5%;
+  }
+  .App-header3 .a h1{
+    padding-left: 10%;
+    margin-bottom: 25px;
+    color: #424a4f;
+  }
+  .App-header3 .a p{
+    padding-left: 10%;
+    color: #424a4f;
+  }
+  .App-header3 a {
+   color: #0077b3;
+  }
+  .App-header3 .imgyoung{
+    width:72%;
+    max-width: 770px;
+    object-fit: contain;
+    padding-left: 10%;
+  }
+  .App-header4{
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #dfeeee!important;
+  }
+  .App-header4 .imgyoung{
+    width:80%;
+    max-width: 770px;
+    object-fit: contain;
+    padding-left: 10%;
+  }
+  .App-header4 .b h1{
+    padding-right: 10%;
+    margin-bottom: 25px;
+    color: #424a4f;
+  }
+  .App-header4 .b p{
+    padding-right: 10%;
+    color: #424a4f;
+  }
+  .App-header5{
+    display: flex;
+    min-height: 70vh;
+    padding-top: 3%;
+    align-items: center;
+    justify-content: center
+  }
+  .App-header5 .imgyoung{
+    width:80%;
+    max-width: 770px;
+    object-fit: contain;
+    padding-left: 10%;
+  }
+  .App-header5 .a h1{
+    padding-left: 10%;
+    color: #424a4f;
+    margin-bottom: 25px;
+  }
+  .App-header5 .a p{
+    padding-left: 10%;
+    color: #424a4f;
+  }
+  .App-header6 {
+    background-color: #0b5876;
+    display: flex;
+    min-height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
+  .App-header6 h1{
+    margin-top: -20px;
+    color: #89d6f3;
+  }
+  .App-header6 p{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: white;
+    margin-top: 25px;
+  }
+  .App-header6 p a{
+    color: #0077b3;
+  }
+  .Open{
+    margin-top: 30px;
+    color: #424a4f;
+  }
+  .weeks{
+    margin-top: 30px;
+    color: #424a4f;
+  }
+  .time{
+    margin-top: 30px;
+    color: #424a4f;
+  }
+  .internet{
+    margin-top: 30px;
+    color: #424a4f;
+  }
+  .Remote{
+    margin-top: 30px;
+    color: #424a4f;
+  }
+  .Training{
+    margin-top: 30px;
+    color: #424a4f;
+  }
+  .Cereal{
+    margin-top: 30px;
+    color: #424a4f;
+  }
+  .cover{
+    margin-top: 20px;
+    color: #424a4f;
+  }
+  .Company{
+    margin-top: 20px;
+    color: #424a4f;
+  }
+  .imgyoung1{
+    max-height: 80px;
+    justify-items: center;
+    margin-top: 70px;
+    justify-content: space-between;
+  }
+
+  .App6{
+    width: 100%;
+    height: auto;
+    background-color: #dfeeee;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .App6 h1{
+    padding-top: 50px;
+    color: #424a4f;
+  }
+  .App-header8{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    margin-top: 100px;
+    width: 85%;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  /* Media Queries */
+  
+  @media only screen and (max-width: 1024px) {
+    .form{
+      width: 100vh;
+      margin-top: -50px;
+    }
+    .label{
+      margin-left: 40px;
+    }
+    input{
+      width: 80%;
+      box-shadow: none;
+    }
+    .input{
+      min-height: 40px;
+    }
+    .App-header8{
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .App-header1 {
+      padding: 0px 8%;
+    }
+    .App-header2{
+      flex-direction:column;
+    }
+    .App-header2 .imgyoung{
+      width: 84%;
+    } 
+    .App-header2 .b p{
+      padding-left: 10%;
+    }
+    .App-header2 .b h1{
+      padding-left: 10%;
+    }
+    .App-header3{
+      flex-direction:column-reverse;
+    }
+    .col-sm {
+      width: 100%;
+    }
+    .App-header3 .imgyoung{
+      width: 84%;
+      padding-bottom: 10%;
+    }  
+    .App-header3 .a p{
+      padding-right: 12%;
+    }
+    .App-header4{
+      flex-direction:column;
+    }
+    .App-header4 .b p{
+      padding-left: 10%;
+    }
+    .App-header4 .b h1{
+      padding-left: 10%;
+    }
+    .App-header5{
+      flex-direction:column-reverse;
+    }
+    .form{
+      width: 100vh;
+      top: 10px;
+    }
+    .App-header8{
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 786px) {
+    .form{
+      width: 100vh;
+      margin-top: 0px;
+    }
+    .App-header2{
+      padding-bottom: 30px;
+      padding-top: 30px; ;
+    }
+    .App-header3{
+      padding-bottom: 30px;
+    }
+    .App-header4{
+      padding-bottom: 30px;
+      padding-top: 30px; ;
+    }
+    .App-header5{
+      padding-bottom: 30px;
+      padding-top: 30px; ;
+    }
+    .App-header8{
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .form{
+      width: 100%;
+      margin-top: 0px;
+    }
+    .App-header2 .b p{
+      font-size: 10px;
+    } 
+    .label{
+      margin-left: 20px;
+    }
+    input{
+      width: 80%;
+      margin-left: 20px;
+    }
+    .button {
+      margin-left: 20px;
+    }
+    .App-header7 a{
+      margin-left: 20px;
+    }
+    .App-header6 {
+      margin-top: 30px;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .App-header6 p{
+      font-size: 12px;
+    }
+  }
+  

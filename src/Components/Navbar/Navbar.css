@@ -1,0 +1,52 @@
+.logo{
+    width: 50px;
+    height: auto;
+    margin-left: 50px;
+  }
+  .Navbar{
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-color: rgba(255, 255,255,0.4); */
+    background-color: #0b5876;
+  }
+  .Navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .Navbar ul li {
+    display: inline-block;
+  }
+  .Navbar li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .Navbar li a:hover {
+    color: #111;
+  }
+  @media only screen and (max-width: 991px) {
+    .navbarlink li a{
+      width: 100%;
+      float: none;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .Navbar ul li{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .logo{
+      margin-left: 0px;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    
+  }

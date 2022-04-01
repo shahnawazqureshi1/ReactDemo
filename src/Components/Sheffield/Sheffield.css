@@ -1,0 +1,148 @@
+.App-News{
+    padding-left: 150px;
+    padding-top: 100px;
+    /* color: dimgrey; */
+}
+.Sheffield-container{
+    align-items:center; 
+    display:flex; 
+    flex-direction: row;
+    width: 60%;
+}
+.SheffieldImage{
+    width: 35%;
+    margin: 15px;
+    padding-left: 100px;
+}
+.Sheffieldpad{
+    padding:10px 50px;
+}
+.Sheffieldcover1{
+    color: dimgrey;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.Sheffieldheading{
+    color: #222;
+    padding-bottom: 10px;
+}
+.Sheffieldcover{
+    color: dimgrey;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.Sheffieldcover2{
+    color: dimgrey;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+  @media only screen and (max-width: 991px) {
+    .Sheffield-container{
+        width: 100%;
+    }
+    .Sheffieldpad{
+        padding:10px 50px;
+    }
+    .Sheffieldcover1{
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+    .Sheffieldheading{
+        padding-bottom: 5px;
+    }
+    .Sheffieldcover{
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+    .Sheffieldcover2{  
+        font-size: 10px; 
+    }
+  }
+  @media only screen and (max-width: 786px) {
+    .Sheffield-container{
+        width: 100%;
+    }
+    .Sheffieldpad{
+        padding:10px 50px;
+    }
+    .Sheffieldcover1{
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+    .Sheffieldheading{
+        padding-bottom: 5px;
+    }
+    .Sheffieldcover{
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+    .Sheffieldcover2{  
+        font-size: 10px; 
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .App-News{
+        padding-left: 50px;
+        padding-top: 100px;
+    }
+    .Sheffield-container{
+        width: 95%;
+    }
+    .SheffieldImage{
+        width: 35%;
+        margin: 15px;
+        padding-left: 30px;
+    }
+    .Sheffieldpad{
+        padding:10px 0px;
+    }
+    .Sheffieldcover1{
+        font-size: 7px;
+        padding-bottom: 5px;
+    }
+    .Sheffieldheading{
+        padding-bottom: 5px;
+        font-size: 10px;
+    }
+    .Sheffieldcover{
+        font-size: 7px;
+        padding-bottom: 5px;
+    }
+    .Sheffieldcover2{  
+        font-size: 7px; 
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .Sheffield-container{
+        width: 99%;
+    }
+    .Sheffieldheading{
+        font-size: 9px;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .App-News{
+        padding-left: 20px;
+        padding-top: 80px;
+    }
+    .SheffieldImage{
+        width: 40%;
+        padding-left: 10px;
+    }
+    .Sheffieldcover1{
+        font-size: 7px;
+        padding-bottom: 5px;
+    }
+    .Sheffieldheading{
+        padding-bottom: 5px;
+        font-size: 7px;
+    }
+    .Sheffieldcover{
+        font-size: 7px;
+        padding-bottom: 5px;
+    }
+    .Sheffieldcover2{  
+        font-size: 7px; 
+    }
+  }
