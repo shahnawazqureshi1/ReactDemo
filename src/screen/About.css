@@ -4,30 +4,39 @@
     width: 80%;
     padding-left: 150px;
 }
+.AboutImage{
+    margin-top: -200px;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
 .App-About{
     background-color: #0bb8d2 ;
     padding-top: 100px;
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-bottom: 100px;
     display: flex;
-    width: 150%;
+    width: 200%;
     height: 500px;
 }
 .AboutHeading{
     color: #fff;
+    font-size: 34px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 .AboutPara{
     color: #fff;
     text-align: center;
-    margin-top: 20px;
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-top: 40px;
+    font-size: 17px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .AboutMeHeading{
-    padding-top: 200px;
+    padding-top: 250px;
     font-weight: bold;
     padding-left: 100px;
     font-size: 44px;
@@ -36,7 +45,7 @@
     color: dimgrey;
     padding-left: 100px;
     font-size: 18px;
-    margin-top: 30px;
+    margin-top: 40px;
     padding-right: 200px;
 }
 .btn-Contact{
@@ -46,12 +55,13 @@
     margin-top: 50px;
     border-radius: 50px;
     margin-left: 100px;
+    /* cursor: pointer; */
 }
 .btn-Contact:hover{
     background-color: #000000 !important;
     color: #fff;
     border: none;
-
+    /* transition: 0.5s ease-in-out; */
 }
 .AboutFreePik{
     margin-left: 100px;
@@ -60,3 +70,241 @@
     color: dimgrey;
 
 }
+.AboutFreePik a{
+    color: dimgrey;
+}
+.AboutFreePik a:hover{
+    color:#0bb8d2;
+}
+.times{
+    margin-left: 100px;
+    color: lightslategrey;
+    margin-top: 20px;
+}
+.btncount{
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    color: #000;
+    border: #0bb8d2 1px solid;
+    border-radius: 50px;
+}
+.btncount:hover{
+    
+    background-color: #000;
+    color: #fff;
+    border: #0bb8d2 1px solid;
+    border-radius: 50px;
+}
+@media only screen and (max-width: 1920px) {
+    .AboutPara {
+        margin-bottom: 250px;
+      }
+      
+      .AboutImage {
+        margin: auto;
+        margin-top: -200px;
+      }
+      .AboutMeHeading {
+        padding-left: 30px;
+    }
+    .AboutDesignPara {
+        padding-left: 30px;
+    }
+    .btn-Contact {
+        margin-left: 30px;
+    }
+    .AboutFreePik {
+        margin-left: 30px;
+    }
+  }
+@media only screen and (max-width: 1024px) {
+    
+  }
+@media only screen and (max-width: 991px) {
+    .ABOUTS{
+        flex-direction: column;
+        width: 60%;
+        margin: auto;
+        padding-left: 0px;
+    }
+    .AboutImage{
+        margin-top: -200px;
+        height: 220px;
+        width: 200px;
+    }
+    .App-About{
+        width: 100%;
+        margin-left: 45px;
+    }
+    .AboutPara{
+        font-size: 16px;
+    }
+    .AboutMeHeading{
+        padding-top: 0px;
+        align-items: center;
+        text-align: center;
+        font-size: 44px;
+    }
+    .AboutDesignPara{  
+        font-size: 16px;
+        text-align: center;
+        align-items: center;
+        padding-right: 0px;
+        padding-left: 70px;
+    }
+    .btn-Contact{
+        margin-left: 130px;
+    }
+    .AboutFreePik{
+        margin-left: 130px;
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+  }
+@media only screen and (max-width: 786px) {
+    .ABOUTS{
+        flex-direction: column;
+        width: 60%;
+        margin: auto;
+        padding-left: 0px;
+    }
+    .AboutImage{
+        margin-top: -200px;
+        height: 220px;
+        width: 200px;
+    }
+    .App-About{
+        width: 100%;
+        margin-left: 45px;
+    }
+    .AboutPara{
+        font-size: 16px;
+    }
+    .AboutMeHeading{
+        padding-top: 0px;
+        align-items: center;
+        text-align: center;
+        font-size: 44px;
+    }
+    .AboutDesignPara{  
+        font-size: 16px;
+        text-align: center;
+        align-items: center;
+        padding-right: 0px;
+        padding-left: 70px;
+    }
+    .btn-Contact{
+        margin-left: 130px;
+    }
+    .AboutFreePik{
+        margin-left: 130px;
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+  }
+@media only screen and (max-width: 425px) {
+    .ABOUTS{
+        flex-direction: column;
+        width: 60%;
+        margin: auto;
+        padding-left: 0px;
+    }
+    .AboutImage{
+        margin-top: -200px;
+        height: 220px;
+        width: 200px;
+        
+    }
+    .App-About{
+        width: 100%;
+        margin-left: 45px;
+    }
+    .AboutHeading{
+        font-size: 36px;
+        margin-top: 10px;
+    }
+    .AboutPara{
+        font-size: 16px;
+        text-align: center;
+        justify-content: center;
+    }
+    .AboutMeHeading{
+        padding-top: 0px;
+        align-items: center;
+        text-align: center;
+        font-size: 44px;
+    }
+    .AboutDesignPara{  
+        font-size: 16px;
+        text-align: center;
+        align-items: center;
+        padding-right: 0px;
+        padding-left: 70px;
+    }
+    .btn-Contact{
+        margin-left: 130px;
+    }
+    .AboutFreePik{
+        margin-left: 130px;
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+  }
+@media only screen and (max-width: 375px) {
+    .AboutImage{
+        margin-top: -200px;
+        height: 200px;
+        width: 180px;
+        margin-left: 60px;
+    }
+    .App-About{
+        margin-left: 40px;
+    }
+    .btn-Contact{
+        margin-left: 110px;
+    }
+    .AboutFreePik{
+        margin-left: 110px;
+    }
+  }
+@media only screen and (max-width: 320px) {
+    .AboutImage{
+        margin-left: 55px;
+    }
+    .App-About{
+        width: 112%;
+        margin-left: 15px;
+    }
+    .AboutMeHeading{
+        padding-top: 0px;
+        padding-left: 50px;
+    }
+    .AboutDesignPara{
+        padding-left: 50px;
+        font-size: 16px;
+        margin-top: 20px;
+        padding-right: 0px;
+    }
+    .btn-Contact{
+        margin-left: 80px;
+    }
+    .AboutFreePik{
+        margin-left: 80px;
+        font-size: 16px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+

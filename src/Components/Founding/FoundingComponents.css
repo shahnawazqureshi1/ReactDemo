@@ -1,13 +1,16 @@
 .App-header2{
   background-color: #f0f7f7;
   display: flex;
-  min-height: 90vh;
+  min-height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
   align-items: center;
   justify-content: center;
 }
 .imgyoung{
   width:50%;
   max-width: 570px;
+  margin: 30px 20px 30px 20px;
   object-fit: contain;
   padding-left: 5%;
 }
@@ -39,6 +42,9 @@
     .App-header2{
       padding-bottom: 30px;
       padding-top: 30px; ;
+    }
+    .imgyoung{
+      max-width: 800px;
     }
   }
   @media only screen and (max-width: 425px) {

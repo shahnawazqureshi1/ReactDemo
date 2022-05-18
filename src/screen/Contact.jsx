@@ -1,9 +1,19 @@
+import React,{useState} from 'react'
 import './Home.css';
 import Navbar from '../Components/Navbar/Navbar';
 import Form from '../Components/Form/Form';
 import Footer from '../Components/Footer/Footer';
 
 function App() {
+
+  const [address,setAddress] = useState('')
+  const [subject,setsubject] = useState('')
+  const [help,sethelp] = useState('')
+
+  function onClick(){
+    console.log(address,subject,help)
+  }
+
   return (
     <div className="flex-container App">
       <Navbar />
@@ -19,10 +29,10 @@ function App() {
         </div>
         <div className="App-header7">
           <form className='form'><br/>
-          <Form formLabel={'Enter your Address:'} />
-          <Form style={{marginTop:15}} formLabel={'Subject:'} />
-          <Form style={{marginTop:15}} formLabel={'How can you Help?'} />
-            <button type="button" className='button'>Send</button><br/>
+          <Form formLabel={'Enter your Address:'} value={address} onChange={(e)=>setAddress(e.target.value)} />
+          <Form style={{marginTop:15}} formLabel={'Subject:'} value={subject} onChange={(e)=>setsubject(e.target.value)}/>
+          <Form style={{marginTop:15}} formLabel={'How can you Help?'} value={help} onChange={(e)=>sethelp(e.target.value)} />
+            <button type="button" className='button' onClick={onClick}>Send</button><br/>
             <a href="https://moz.com/blog/category/whiteboard-friday">Privacy Policy</a>
           </form>
         </div>

@@ -21,7 +21,7 @@
     text-align: center;
     justify-content: center;
     color: white;
-    padding: 0px 15%;
+    padding: 20px 15%;
   }
   .App-header1 p{
     text-align: center;
@@ -197,7 +197,9 @@
   }
 
   /* Media Queries */
-  
+  @media only screen and (max-width: 1920px) {
+    
+  }
   @media only screen and (max-width: 1024px) {
     .form{
       width: 100vh;
@@ -323,4 +325,11 @@
       font-size: 12px;
     }
   }
-  
+  @media only screen and (max-width: 320px) {
+    .App-header6 p{
+      font-size: 12px;
+    }
+    .para{
+      text-align: center;
+    }
+  }

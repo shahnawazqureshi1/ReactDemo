@@ -13,11 +13,10 @@
   }
   .form{
     background-color: white;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     min-height: auto;
     border:1px solid #424a4f;
     border-radius: 5px;
-    width: 80vh;
+    width: auto;
     padding-bottom: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -31,7 +30,6 @@
     margin-left: 40px;
     min-height: 40px;
     border-radius: 5px;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     border:1px solid #424a4f;
   }
   .button {
@@ -60,8 +58,8 @@
   }
   @media only screen and (max-width: 1024px) {
     .form{
-      width: 100vh;
-      margin-top: -50px;
+      width: auto;
+      margin-top: 50px;
     }
     .label{
       margin-left: 40px;
@@ -75,29 +73,21 @@
     }
   }
   @media only screen and (max-width: 991px) {
-    
-    .form{
-      width: 100vh;
-      top: 10px;
-    }
     .App-header8{
       width: 100%;
       flex-direction: column;
     }
   }
   @media only screen and (max-width: 786px) {
-    .form{
-      width: 100vh;
-      margin-top: 0px;
-    }
+    
   }
   @media only screen and (max-width: 425px) {
     .App-header1 p{
       font-size: 16px;
     }
     .form{
-      width: 100%;
-      margin-top: 0px;
+      width: 80%;
+      margin-top: 30px;
     }
     .label{
       margin-left: 20px;
@@ -111,6 +101,7 @@
     }
     .App-header6 h1{
       color: #89d6f3;
+      margin-top: 30px;
     }
     .App-header6 p{
       text-align: center;

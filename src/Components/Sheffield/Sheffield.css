@@ -1,5 +1,5 @@
 .App-News{
-    padding-left: 150px;
+    padding-left: 100px;
     padding-top: 100px;
     /* color: dimgrey; */
 }
@@ -7,33 +7,34 @@
     align-items:center; 
     display:flex; 
     flex-direction: row;
-    width: 60%;
+    width: 80%;
 }
 .SheffieldImage{
     width: 35%;
     margin: 15px;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 .Sheffieldpad{
-    padding:10px 50px;
+    padding:10px 0px;
 }
 .Sheffieldcover1{
     color: dimgrey;
-    font-size: 12px;
+    font-size: 16px;
     padding-bottom: 10px;
 }
 .Sheffieldheading{
     color: #222;
+    font-size: 24px;
     padding-bottom: 10px;
 }
 .Sheffieldcover{
     color: dimgrey;
-    font-size: 12px;
+    font-size: 16px;
     padding-bottom: 10px;
 }
 .Sheffieldcover2{
     color: dimgrey;
-    font-size: 12px;
+    font-size: 16px;
     padding-bottom: 10px;
 }
 
@@ -42,7 +43,7 @@
         width: 100%;
     }
     .Sheffieldpad{
-        padding:10px 50px;
+        padding:10px 0px;
     }
     .Sheffieldcover1{
         font-size: 10px;
@@ -64,7 +65,7 @@
         width: 100%;
     }
     .Sheffieldpad{
-        padding:10px 50px;
+        padding:10px 0px;
     }
     .Sheffieldcover1{
         font-size: 10px;
